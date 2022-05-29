@@ -15,8 +15,9 @@ from re import sub
 
 class GV(object):
     # need to modify
-    intface = "miao"
-    tshark_path = "/usr/bin/tshark"
+    intface = "interface_name"   # your vpn interface name
+    tshark_path = "/usr/bin/tshark"   # your tshark path
+    # a.b.c.d, here use 10.5.0.0/16
     ipv4_a = 10
     ipv4_b = 5
 
